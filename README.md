@@ -1,71 +1,46 @@
-# VS-Extension README
+# DeepSeek Chat VS Code Extension
 
-This is the README for your extension "VS-Extension". After writing up a brief description, we recommend including the following sections.
+This is the VS Code extension for interacting with DeepSeek, powered by the Ollama API. With this extension, you can have chat-based conversations with the "DeepSeek" AI model directly inside Visual Studio Code.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- **Chat Interface**: Interact with DeepSeek AI using a simple chat UI embedded in the VS Code webview.
+- **Real-time Response**: Receive real-time, streaming responses from the model as you chat.
+- **Customizable Prompts**: Submit custom prompts or questions to DeepSeek for AI-generated answers.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+To use this extension, you will need:
+
+- **Visual Studio Code** (any version that supports extensions)
+- **Ollama API key**: The Ollama API is used to generate responses. Make sure you have access to the DeepSeek model through Ollama.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-- `myExtension.enable`: Enable/disable this extension.
-- `myExtension.thing`: Set to `blah` to do something.
+There are no configurable settings for this extension at the moment.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- **Streaming Limitations**: In some cases, network interruptions might cause incomplete responses.
+- **Ollama API Availability**: Ensure that the Ollama API service is available to avoid connection issues.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
+- Initial release with basic chat interface and streaming responses from DeepSeek.
 
 ### 1.1.0
 
-Added features X, Y, and Z.
+- Added real-time streaming for improved chat experience.
 
 ---
 
-## Following extension guidelines
+## Following Extension Guidelines
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+Ensure that you've read through the [extension guidelines](https://code.visualstudio.com/api/references/extension-guidelines) and follow the best practices for creating your extension.
 
-- [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
+## For More Information
 
 - [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 - [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
