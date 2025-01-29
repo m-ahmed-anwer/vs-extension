@@ -390,7 +390,7 @@ function getWebviewContent() {
                     <textarea 
                         id="prompt" 
                         class="input-textarea"
-                        placeholder="Type your message... "
+                        placeholder="Type your message..."
                         rows="1"
                     ></textarea>
                     <button type="submit" class="send-button" id="sendButton">Send</button>
@@ -493,7 +493,7 @@ function getWebviewContent() {
                     case 'chatComplete':
                         updateLastMessage(message.message.content, false);
                         isProcessing = false;
-                        updateSendButton();🐒
+                        updateSendButton();
                         break;
 
                     case 'chatError':
