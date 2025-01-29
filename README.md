@@ -34,13 +34,3 @@ There are no configurable settings for this extension at the moment.
 
 - Added real-time streaming for improved chat experience.
 
----
-
-## Following Extension Guidelines
-
-Ensure that you've read through the [extension guidelines](https://code.visualstudio.com/api/references/extension-guidelines) and follow the best practices for creating your extension.
-
-## For More Information
-
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
